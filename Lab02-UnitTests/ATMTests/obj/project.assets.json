@@ -1962,6 +1962,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Lab02-UnitTests/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Lab02-UnitTests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lab02-UnitTests.dll": {}
+        }
       }
     }
   },
@@ -6569,10 +6579,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Lab02-UnitTests/1.0.0": {
+      "type": "project",
+      "path": "../Lab02-UnitTests/Lab02-UnitTests.csproj",
+      "msbuildProject": "../Lab02-UnitTests/Lab02-UnitTests.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Lab02-UnitTests >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "coverlet.collector >= 1.0.1",
       "xunit >= 2.4.0",
@@ -6604,7 +6620,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\harry\\Desktop\\Code401\\Week1\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj": {
+              "projectPath": "C:\\Users\\harry\\Desktop\\Code401\\Week1\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests\\Lab02-UnitTests.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

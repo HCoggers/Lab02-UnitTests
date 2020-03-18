@@ -2,7 +2,7 @@
 
 namespace Lab02_UnitTests
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -50,7 +50,7 @@ namespace Lab02_UnitTests
                         Console.WriteLine("How much cash would you like to Deposit?");
                         string cashGiven = Console.ReadLine();
                         balance = Deposit(cashGiven, balance);
-                        Console.WriteLine($"You Successfully Deposited {cashGiven}, Your balance is currently {balance}");
+                        Console.WriteLine($"You Successfully Deposited {cashGiven}, Your balance is now {balance}");
                         break;
                     case "x":
                         reload = false;
@@ -88,20 +88,30 @@ namespace Lab02_UnitTests
                     $"\n{e.Message}");
             }
         }
-        static decimal Withdraw(string cashTaken, decimal balance)
+        public static decimal Withdraw(string cashTaken, decimal balance)
         {
             decimal money = Convert.ToDecimal(cashTaken);
+            if (money < 0)
+            {
+                Console.WriteLine("Try a deposit.");
+                return balance;
+            }
             decimal newBalance;
             if ((balance - money) >= 0)
                 newBalance = balance - money;
             else
-                throw (new Exception("You don't have that much money." +
-                    "\nTransaction Cancelled."));
+                throw new ArgumentException("You don't have that much money." +
+                    "\nTransaction Cancelled.");
             return newBalance;
         }
-        static decimal Deposit(string cashGiven, decimal balance)
+        public static decimal Deposit(string cashGiven, decimal balance)
         {
             decimal money = Convert.ToDecimal(cashGiven);
+            if (money < 0)
+            {
+                Console.WriteLine("Try a withdrawal.");
+                return balance;
+            }
             decimal newBalance = balance + money;
             return newBalance;
         }
