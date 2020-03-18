@@ -1,5 +1,5 @@
 # ATMs and Unit Tests!
-__Lab-02-UnitTests for .Net 401
+__Lab 02: Unit Testing for .Net 401  
 by Harry Cogswell__
 
 ## Summary
