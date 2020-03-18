@@ -1,0 +1,11 @@
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.csprojAssemblyReference.cache
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.AssemblyInfo.cs
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.exe
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.deps.json
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.runtimeconfig.json
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.runtimeconfig.dev.json
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.dll
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\bin\Debug\netcoreapp3.1\Lab02-UnitTests.pdb
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.dll
+C:\Users\harry\Desktop\Code401\Week1\Lab02-UnitTests\Lab02-UnitTests\Lab02-UnitTests\obj\Debug\netcoreapp3.1\Lab02-UnitTests.pdb
