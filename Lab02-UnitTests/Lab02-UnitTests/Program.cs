@@ -38,7 +38,6 @@ namespace Lab02_UnitTests
                 switch (transaction)
                 {
                     case "1":
-                        balance = GetBalance(balance);
                         Console.WriteLine($"Your balance is currently {balance}");
                         break;
                     case "2":
@@ -88,10 +87,6 @@ namespace Lab02_UnitTests
                     "\nTransaction Cancelled due to:" +
                     $"\n{e.Message}");
             }
-        }
-        static decimal GetBalance(decimal balance)
-        {
-            return balance;
         }
         static decimal Withdraw(string cashTaken, decimal balance)
         {
